@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    box-sizing: border-box;
+}
+
+div {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 5%;
+    padding: 4%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    width: 99%;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-bottom: -1%;
+    width: 90%;
+    color: hsl(218, 44%, 22%);
+    font-size: 23px;
+}
+
+p {
+    font-size: 16px;
+    width: 90%;
+    color: hsl(220, 15%, 55%);
+    font-weight: 450;
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div {
+        background-color: white;
+        width: 23%;
+        margin-top: 10%;
+        padding: 2%;
+    }
+
+    p {
+        font-size: 16px;
+        width: 90%;
+        color: hsl(220, 15%, 55%);
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1359px) {
+    div {
+        background-color: white;
+        width: 23%;
+        margin-top: 5%;
+        padding: 2%;
+    }
+
+    p {
+        font-size: 16px;
+        width: 90%;
+        color: hsl(220, 15%, 55%);
+        font-weight: 700;
+    }
+}
